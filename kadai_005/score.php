@@ -23,7 +23,7 @@
 
          $SUM =  $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
 
-         $AVE = $SUM  / 8;
+         $AVE = $SUM  / 10;
          echo $AVE;         
 
          ?>
