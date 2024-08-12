@@ -21,10 +21,10 @@
          $score9 = 30;
          $score10 = 60;
 
-         echo  $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
-         echo '<br>';
-         echo  ($score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10) / 8;
-         
+         $SUM =  $score1 + $score2 + $score3 + $score4 + $score5 + $score6 + $score7 + $score8 + $score9 + $score10;
+
+         $AVE = $SUM  / 8;
+         echo $AVE;         
 
          ?>
      </p>
